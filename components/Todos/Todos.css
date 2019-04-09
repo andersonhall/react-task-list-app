@@ -1,0 +1,31 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px dashed #333;
+  margin: 10px auto;
+  max-width: 350px;
+}
+
+.todo-list h1,
+.todo-list h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.todo-list ul {
+  list-style: none;
+  background: rgb(64, 238, 130);
+}
+
+.todo-list ul li {
+  padding: 0.5rem;
+  border-top: 1px dashed #333;
+  user-select: none;
+}
+
+.todo-list ul li span {
+  float: right;
+  padding: 0 .5rem;
+  cursor: pointer;
+}
