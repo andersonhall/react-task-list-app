@@ -2,8 +2,6 @@ import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa'
 import './Todos.css';
 
-import TodoItem from '../TodoItem/TodoItem'
-
 const todos = ({ todos, deleteTodo }) => {
 
   const todoList = todos.length ? (
