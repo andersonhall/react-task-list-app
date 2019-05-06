@@ -8,18 +8,7 @@ import Todos from './components/Todos/Todos';
 
 class App extends Component {
   state = {
-    todos: [
-      {
-        id: uuid.v4(),
-        name: 'wash car',
-        complete: false
-      },
-      {
-        id: uuid.v4(),
-        name: 'fix computer',
-        complete: false
-      }
-    ],
+    todos: [],
     value: ''
   };
 
